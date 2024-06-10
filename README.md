@@ -27,6 +27,8 @@ amigo_mvc/
     | amigo.model.php
     | db.php
   --------------
+  | public/
+  --------------
   | views/
     | footer.php
     | header.php
@@ -45,6 +47,9 @@ The backend that contains all the data logic.
 
 - `**amigo.model.php:**` In this file, realized the CRUD with connect direct to database.
 - `**db.php**` Connect with database for realized the CRUD.
+
+### 🌐 Public
+All files with global access in this web site.
 
 ### 🎨 Views
 The frontend or graphical user interface (GUI)

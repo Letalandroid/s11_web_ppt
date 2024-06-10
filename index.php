@@ -1,3 +1,3 @@
 <?php
 
-require_once 'vistas/home.php';
+require_once 'views/home.php';
