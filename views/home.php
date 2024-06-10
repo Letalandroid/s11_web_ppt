@@ -19,6 +19,12 @@ $amigos = getAll();
 
 <body>
     <?php require_once 'views/header.php'; ?>
+    <form action="/controllers/add.php" method="post">
+        <input type="text" placeholder="Paterno" name="paterno">
+        <input type="text" placeholder="Materno" name="materno">
+        <input type="text" placeholder="Nombre" name="nombre">
+        <input type="submit" value="Añadir uwu">
+    </form>
 
     <table border="1">
         <thead>
@@ -31,12 +37,14 @@ $amigos = getAll();
         </thead>
         <tbody>
             <?php foreach ($amigos as $amigo) { ?>
-            <tr>
-                <td><?= $amigo['id'] ?></td>
-                <td><?= $amigo['paterno'] ?></td>
-                <td><?= $amigo['materno'] ?></td>
-                <td><?= $amigo['nombre'] ?></td>
-            </tr>
+                <tr>
+                    <td><?= $amigo['id'] ?></td>
+                    <td><?= $amigo['paterno'] ?></td>
+                    <td><?= $amigo['materno'] ?></td>
+                    <td><?= $amigo['nombre'] ?></td>
+                    <td><a href="">Eliminar</a></td>
+                    <td><?= $amigo['nombre'] ?></td>
+                </tr>
             <?php } ?>
         </tbody>
     </table>
