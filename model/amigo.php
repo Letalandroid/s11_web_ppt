@@ -18,12 +18,16 @@ class Amigo
 
     static function list()
     {
-        $pdo = Database::Connect();
-        $sql = "SELECT * FROM amigos";
+        try {
+            $pdo = Database::Connect();
+            $sql = "SELECT * FROM amigos";
 
-        $stm = $pdo->prepare($sql);
-        $stm->execute();
+            $stm = $pdo->prepare($sql);
+            $stm->execute();
 
-        return $stm->fetchAll(PDO::FETCH_ASSOC);
+            return $stm->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            die($e->getMessage());
+        }
     }
 }
