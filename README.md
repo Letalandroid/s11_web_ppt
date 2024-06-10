@@ -60,3 +60,19 @@ The frontend or graphical user interface (GUI)
 ### 🗃️ Others Files
 
 - **index.php:** In this file, show for users the view `views/home.php`.
+
+## 🔼 Run Application
+To run the application, you need to have a PHP server and MySQLinstalled on your computer.
+Form more information:
+
+- [PHP Download](https://www.php.net/downloads.php)
+- [MySQL Download](https://www.mysql.com/downloads/)
+
+### Run application with:
+```bash
+php -S localhost:8000
+```
+
+### Open Chrome and result:
+![Imaged referenced]()\
+_This is a imaged referenced_
