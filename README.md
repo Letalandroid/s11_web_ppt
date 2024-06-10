@@ -64,7 +64,7 @@ The frontend or graphical user interface (GUI)
 
 ### 🗃️ Others Files
 
-- **index.php:** In this file, show for users the view `views/home.php`.
+- `index.php:` In this file, show for users the view `views/home.php`.
 
 ## 🔼 Run Application
 To run the application, you need to have a PHP server and MySQLinstalled on your computer.
