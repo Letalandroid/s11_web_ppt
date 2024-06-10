@@ -40,13 +40,13 @@ amigo_mvc/
 ### 🎛️ Controllers
 The brains of the application that controls how data is displayed
 
-- `**amigo.controller.php:**` In this file realized all CRUD (Create, Read, Update, Delete), for database `php2020`.
+- `amigo.controller.php:` In this file realized all CRUD (Create, Read, Update, Delete), for database `php2020`.
 
 ### 📊 Models
 The backend that contains all the data logic.
 
-- `**amigo.model.php:**` In this file, realized the CRUD with connect direct to database.
-- `**db.php**` Connect with database for realized the CRUD.
+- `amigo.model.php:` In this file, realized the CRUD with connect direct to database.
+- `db.php` Connect with database for realized the CRUD.
 
 ### 🌐 Public
 All files with global access in this web site.
@@ -55,12 +55,12 @@ All files with global access in this web site.
 The frontend or graphical user interface (GUI)
 
 #### 🫂 Amigo (Folder)
-- `**amigo_edit.php:**` Form for edit amigo.
-- `**amigo_list.php:**` List of amigos.
+- `amigo_edit.php:` Form for edit amigo.
+- `amigo_list.php:` List of amigos.
 
 #### Header and Footer
-- `**header.php:**` Header of application.
-- `**footer.php:**` Footer of application.
+- `header.php:` Header of application.
+- `footer.php:` Footer of application.
 
 ### 🗃️ Others Files
 
