@@ -79,5 +79,5 @@ php -S localhost:8000
 ```
 
 ### Open Chrome and result:
-![Imaged referenced]()\
+![Imaged referenced](images/project_image.png)\
 _This is a imaged referenced_
