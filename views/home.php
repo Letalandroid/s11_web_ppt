@@ -2,6 +2,7 @@
 
 require_once __DIR__ . '/../controllers/amigo.controller.php';
 
+
 $amigos = getAll();
 
 ?>
@@ -36,16 +37,7 @@ $amigos = getAll();
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($amigos as $amigo) { ?>
-                <tr>
-                    <td><?= $amigo['id'] ?></td>
-                    <td><?= $amigo['paterno'] ?></td>
-                    <td><?= $amigo['materno'] ?></td>
-                    <td><?= $amigo['nombre'] ?></td>
-                    <td><a href="">Eliminar</a></td>
-                    <td><?= $amigo['nombre'] ?></td>
-                </tr>
-            <?php } ?>
+        <?php require_once 'amigo/amigo_list.php'; ?>
         </tbody>
     </table>
 

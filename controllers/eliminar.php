@@ -4,7 +4,7 @@ require_once __DIR__ . '/../model/amigo.php';
 
 try {
 
-    $id = $_POST['id'];
+    $id = $_GET['id'];
 
     Amigo::remove($id);
     header('Location: /');
